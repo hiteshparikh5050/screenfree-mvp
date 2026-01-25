@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.device {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.status {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px;
+  width: 80px;
+}
+
+.volume {
+  margin-top: 15px;
+}
