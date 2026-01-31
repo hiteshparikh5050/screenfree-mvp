@@ -1,13 +1,15 @@
-const CACHE_NAME = "screenfree-mvp-v1";
+const CACHE_NAME = "screenfree-mvp-v2";
+
 
 const FILES_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/app.js",
-  "/audio/intro.mp3",
-  "/audio/story1.mp3"
+  "./",
+  "./index.html",
+  "./style.css",
+  "./app.js",
+  "./audio/intro.mp3",
+  "./audio/story1.mp3"
 ];
+
 
 // Install
 self.addEventListener("install", (event) => {
