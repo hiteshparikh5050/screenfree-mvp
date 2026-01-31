@@ -30,3 +30,22 @@ body {
 .volume {
   margin-top: 15px;
 }
+/*************************
+ * MOBILE IMPROVEMENTS
+ *************************/
+@media (max-width: 480px) {
+  .device {
+    width: 90%;
+    padding: 24px;
+  }
+
+  .controls button {
+    width: 100px;
+    font-size: 16px;
+  }
+
+  .status {
+    font-size: 16px;
+  }
+}
+
